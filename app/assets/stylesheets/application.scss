@@ -16,7 +16,8 @@
 
 
 @import "bootstrap";
-
+@import "font-awesome-sprockets";
+@import "font-awesome";
 // Fonts
 h1,h2,h3{
   font-family: 'Open Sans', sans-serif;
@@ -33,6 +34,15 @@ h1,h2,h3{
 // Navbar stuff
 .navbar {
   border: none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  transition: 0.2s all ease-in-out;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
 }
 
 // Home Callout
